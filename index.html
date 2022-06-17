@@ -9,21 +9,21 @@
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700,700i|Open+Sans:400,700&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
+<body class="fijas">
 	<div class="contenido-header">
 		<div class="fondo" id="fondo">
 			<h1 class="texto"><span>꧁ঔৣ</span> Kamiver <span>ঔৣ꧂</span></h1>
 		</div>
 	</div>
 
-	<nav class="menu">
-		<a href="#">Nosotros</a>
-		<a href="#">Servicios</a>
-		<a href="#">Contacto</a>
+	<nav class="menu" id="enlaces">
+		<a href="#nosotros">Nosotros</a>
+		<a href="#servicios">Servicios</a>
+		<a href="#contacto">Contacto</a>
 	</nav>
 
 	<main class="container">
-		<div class="row nosotros justify-content-center">
+		<div class="row emcabezado nosotros justify-content-center" id="nosotros">
 			<div class="col-12 text-center">
 				<h2 class="subtitulo"><span>¿Quienes somos?</span></h2>
 				<h3 class="titulo">Nuestra pasión por piedras exóticas y la elegancia.</h3>
@@ -34,7 +34,7 @@
 			</div>
 		</div>
 
-		<div class="row productos">
+		<div class="row emcabezado productos" id="servicios">
 			<article class="col-12 text-center">
 				<h2 class="subtitulo"><span>Lo que ofrecemos</span></h2>
 				<p class="titulo">Nuestros Produtos</p>
@@ -134,7 +134,7 @@
 	</div>
 
 	<div class="container-fluid">
-		<section class="contacto row justify-content-center">
+		<section class="contacto emcabezado row justify-content-center" id="contacto">
 			<div class="col-12 col-md-9 text-center">
 				<h2 class="subtitulo"><span>Contactanos</span></h2>
 			</div>
@@ -162,5 +162,6 @@
 
 	
 	<script src="js/main.js"></script>
+	<script src="js/scroll.js" ></script>
 </body>
 </html>

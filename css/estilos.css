@@ -1,3 +1,8 @@
+
+html {
+	scroll-behavior: smooth; /* comportamiento de scrrol suave*/
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -85,6 +90,10 @@ p {
 
 .menu a:hover {
 	transform: translateY(18px);
+	background-color: var(--purple-light);
+}
+
+.menu a.activo {
 	background-color: var(--purple-light);
 }
 
