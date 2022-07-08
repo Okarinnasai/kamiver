@@ -218,12 +218,13 @@ p {
 	border-bottom: 1px solid #fff;
 }
 
-.producto .precio {	
+.productos .precio {	
 	text-align: center;
-  	color: var(--purple-light);
+  	color: var(--purple-medium);
   	margin-bottom: 2rem;
-  	font-size: 4rem;
-  	
+  	font-size: 2.5rem;
+  	font-family: 'Noto Serif', serif;
+	font-style: italic;
 }
 
 
