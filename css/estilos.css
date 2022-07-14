@@ -358,6 +358,7 @@ padding: 1rem;
 }
 
 .logo .texto-logo:hover {
+	cursor: pointer;
 	
 }
 .titulo-product {
@@ -483,5 +484,5 @@ padding: 1rem;
 #particles-js{
     position: absolute; 
 	height: 100vh;   
-    width: 100%;    	
+    width: 100%; 	 	
 }
