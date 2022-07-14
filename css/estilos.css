@@ -340,12 +340,14 @@ p {
 
 .header-product {
 	width: 100%;
-	height: 100vh;;
+	height: 100vh;
+	background: linear-gradient(#ff4f8b,#818cb9);
 }
 
 .logo {
-background-color: rgba(84, 18, 84, .5);
-padding: 1rem;
+/* background-color: rgba(84, 18, 84, .5); */
+	background-color: rgba(0,0,0, .1);
+	padding: 1rem;
 }
 .logo .texto-logo {
 	font-size: 4rem;
