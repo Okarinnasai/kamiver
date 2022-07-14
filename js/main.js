@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			M.Carousel.getInstance(elementoCarousel[0]).next();
 		}
 		
-	 },2000);
+	 },4000);
 
 	 let id_Carousel = document.getElementById('foto-p');
 	 
@@ -45,7 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		autoplay=true;
 	 })
 
-
+	 const imgLightBox = document.querySelectorAll('.materialboxed');
+	 M.Materialbox.init(imgLightBox,{
+		inDuration: 400,
+		outDuration: 500
+	 });
 });
 	
 
