@@ -550,7 +550,7 @@ footer {
     width: 100%;
     background: #ff4f8b;
 	background: #ff0145;
-	background: var(--purple-light);
+	background: #AF0069;
     min-height: 10rem;
     padding: 20px 50px;
     display: flex;
