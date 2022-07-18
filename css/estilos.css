@@ -470,6 +470,7 @@ p {
 	letter-spacing: .1rem;
 	color: var(--white);
 	font-family: 'Noto Serif', serif;
+	font-size: 1.6rem;
 	font-style: italic;
 	cursor: pointer;
 	border-radius: 1.5rem;
@@ -549,6 +550,7 @@ footer {
     width: 100%;
     background: #ff4f8b;
 	background: #ff0145;
+	background: var(--purple-light);
     min-height: 10rem;
     padding: 20px 50px;
     display: flex;
